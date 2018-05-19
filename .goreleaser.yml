@@ -1,0 +1,22 @@
+builds:
+  - binary: gmusic.go
+    goos:
+    - darwin
+    - linux
+    - windows
+    goarch:
+    - amd64
+    - 386
+archive:
+  name_template: "{{ .Binary }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+  replacements:
+    amd64: 64-bit
+    386: 32-bit
+    darwin: macOS
+  format: tgz
+brew:
+  github:
+    owner: f1337
+    name: gmusic.go
+  description: "A command-line remote for the unofficial Google Play Music Desktop Player."
+  homepage: "https://github.com/f1337/gmusic.go"
