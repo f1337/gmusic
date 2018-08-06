@@ -17,6 +17,6 @@ archive:
 brew:
   github:
     owner: f1337
-    name: gmusic.go
+    name: hombrew-gmusic
   description: "A command-line remote for the unofficial Google Play Music Desktop Player."
   homepage: "https://github.com/f1337/gmusic.go"
