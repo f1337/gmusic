@@ -41,5 +41,5 @@ brew install gmusic
 ### Source
 
 ```
-go get github.com/f1337/gmusic.go
+go get github.com/f1337/gmusic
 ```
