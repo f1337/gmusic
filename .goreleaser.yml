@@ -1,5 +1,5 @@
 builds:
-  - binary: gmusic.go
+  - binary: gmusic
     goos:
     - darwin
     - linux
@@ -17,6 +17,6 @@ archive:
 brew:
   github:
     owner: f1337
-    name: hombrew-gmusic
+    name: homebrew-gmusic
   description: "A command-line remote for the unofficial Google Play Music Desktop Player."
-  homepage: "https://github.com/f1337/gmusic.go"
+  homepage: "https://github.com/f1337/gmusic"
